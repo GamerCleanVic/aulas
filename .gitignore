@@ -1,2 +1,3 @@
-.index.html.swp
-.gitignore.swp
+#.index.html.swp
+#.gitignore.swp
+*.swp
