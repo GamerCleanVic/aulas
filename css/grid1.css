@@ -4,6 +4,9 @@ color:#fff;
 }
 .container{
 	display:grid;
+	/*grid-template-columns:repeat(3, 1fr);*/
+	grid-template-columns: 100px 200px 100px;
+	gap:10px;
 }
 .item{
 background-color:blue;
