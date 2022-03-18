@@ -6,6 +6,7 @@ color:#fff;
 	display:grid;
 	/*grid-template-columns:repeat(3, 1fr);*/
 	grid-template-columns: auto 200px 100px;
+	grid-template-rows: 200px;
 	gap:10px;
 }
 .item{
