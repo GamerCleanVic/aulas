@@ -15,7 +15,8 @@ body {
   padding: 30px;
   font-size: 40px;
   text-align: center;
-  background: #333;
+  background: #292929;
+  border-radius:5px;
 }
 
 /* Create two unequal columns that floats next to each other */
@@ -30,14 +31,47 @@ body {
   float: left;
   width: 25%;
   padding-left: 20px;
+  border-radius:5px;
+}
+.abMe{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  background-color: #292929;
+  border-radius:5px;
+}
+.abMe img{
+  height:85px;
+}
+.popPost{
+  display:flex;
+  flex-direction:column;
+  align-items:flex-start;
+  justify-content:space-between;
+  background-color: #292929;
+  padding:2px;
+  padding-top:7px;
+  padding-left:4px;
+  border-radius:5px;
+}
+.popPost img{
+  height:55px;
 }
 
 /* Fake image */
 .fakeimg {
-  background-color: lightgreen;
+  display:flex;
+  background-color: #292929;
   width: 100%;
   padding: 20px;
   color:darkgreen;
+  align-items:center;
+  align-content:space-between;
+  border-radius:5px;
+}
+.fakeimg img{
+height:175px;
 }
 
 /* Add a card effect for articles */
@@ -45,6 +79,40 @@ body {
    background-color:#333;
    padding: 20px;
    margin-top: 20px;
+   border-radius:5px;
+}
+div a{
+text-decoration:none;
+}
+.btn1{
+display:flex;
+flex-direction:column;
+justify-content:center;
+width:175px;
+height:70px;
+background-color:#009900;
+color:white;
+font-weight:bold;
+text-align:center;
+border: groove 0.7em darkgreen;
+border-radius: 1.5em;
+}
+.btn1:hover{
+background-color:#fff;
+color:darkgreen;
+}
+.btn1:active{
+background-color:darkgreen;
+color:white;
+border: groove 0.7em #009900;
+border-radius: 1.2em;
+}
+
+.btPD{
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
 }
 
 /* Clear floats after the columns */
@@ -60,6 +128,7 @@ body {
   text-align: center;
   background: #333;
   margin-top: 20px;
+  border-radius:5px;
 }
 
 /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
