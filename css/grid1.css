@@ -98,12 +98,12 @@ border: groove 0.7em darkgreen;
 border-radius: 1.5em;
 }
 .btn1:hover{
-background-color:#fff;
-color:darkgreen;
+background-color:darkgreen;
+color:#fff;
 }
 .btn1:active{
 background-color:darkgreen;
-color:white;
+color:#fff;
 border: groove 0.7em #009900;
 border-radius: 1.2em;
 }
@@ -124,11 +124,45 @@ align-items:center;
 
 /* Footer */
 .footer {
+  display:grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap:10px;
   padding: 20px;
   text-align: center;
   background: #333;
   margin-top: 20px;
   border-radius:5px;
+}
+.footer a{
+text-decoration:underline;
+}
+.footer a:hover{
+color:orange;
+}
+.footer a:active{
+color:lightgreen;
+}
+
+.lkRD{
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+  align-items:center;
+  color:#ccc;
+}
+.lkRD2{
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+  align-items:center;
+  color:#ccc;
+}
+.lkRD2 p{
+  padding-left:7px;
+}
+
+.rdBT{
+width:25px;
 }
 
 /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
